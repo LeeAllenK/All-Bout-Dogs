@@ -60,7 +60,6 @@ function App() {
     dispatch({type:'Back', clickedUrl: ''})
     setInfo('');
   }
- 
   return (
     <section className='grid w-screen h-screen '>
       <section className='grid place-items-center border-5 h-full w-full gap-4'>
